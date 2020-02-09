@@ -1,0 +1,292 @@
+.filtersPage {
+  max-width: 1920px;
+  margin: 0;
+  font-family: "Calibri", sans-serif;
+  font-size: 8pt;
+  margin-top: -1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 70vh;
+  background-color: lightblue;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-flow: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 1%;
+}
+
+.menuLink {
+  justify-content: space-between;
+  flex-flow: row;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  padding: 15px;
+  color: white;
+}
+
+.menuLink:hover {
+  flex-flow: row;
+  border-bottom: 4px solid white;
+  border-top: 2px solid white;
+  padding: 15px;
+  color: white;
+}
+
+.menuLink img {
+ width: 10%;
+}
+
+.logo {
+  width: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+main {
+  width: 85%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  max-width: 1600px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 99;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -70px;
+}
+
+.filtersPageRubric {
+   width: 90%;
+   position: relative;
+   overflow: hidden;
+   font-size: 14px;
+   font-weight: normal;
+   text-align: center;
+   margin-top: 2em;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 2%;
+   padding-bottom: 2%;
+ }
+.filtersPageRubric  > span {
+   display: inline-block;
+   margin: 0 .4em;
+ }
+.filtersPageRubric  > span:before,
+.filtersPageRubric  > span:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   border-top: 1px solid black;
+   margin-top: .6em;
+ }
+.filtersPageRubric  > span:before {
+   margin-left: -102%;
+ }
+.filtersPageRubric  > span:after {
+   margin-left: 2%;
+ }
+
+.filtersPageTwoColumn {
+  display: flex;
+  flex-flow: row;
+}
+
+.filtersPageColumnLeftSide {
+  flex-flow: column;
+  width: 25%;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.filtersPageColumnLeftSideBlocks {
+  background-color: rgb(231, 240, 244);
+  border-radius: 10px;
+  border: 1px solid rgb(173, 218, 229);
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.filtersPageColumnRightSide {
+  flex-flow: column;
+  width: 70%;
+}
+
+.filtersPageColumnRightSideBlocks {
+  display: flex;
+  flex-flow: row;
+  border-radius: 10px;
+  border: 1px solid rgb(173, 218, 229);
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 3%;
+  padding-right: 3%;
+
+}
+
+.filtersPageColumnRightSideBlocks img {
+  width: 50%;
+  padding: 1%;
+}
+
+.filtersPageButtonPayment {
+  width: 111px;
+  height: 45px;
+  background-color: white;
+  border: 1px solid #b1dbe6;
+  border-radius: 5px;
+  text-align: center;
+  margin: 2%;
+}
+
+.filtersPageButtonPayment:hover {
+  background-color: rgb(0, 149, 186);
+  width: 111px;
+  height: 45px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  text-align: center;
+  margin: 2%;
+}
+
+.filtersPageButtonMoreInfo {
+  width: 177px;
+  height: 45px;
+  background-color: #e7f0f4;
+  border: 1px solid #b1dbe6;
+  border-radius: 5px;
+  text-align: center;
+  margin: 2%;
+}
+
+.filtersPageButtonMoreInfo:hover {
+  background-color: rgb(0, 149, 186);
+  width: 177px;
+  height: 45px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  text-align: center;
+  margin: 2%;
+}
+
+.filtersPageColumnRightSideBlocksTextPlusButtons {
+  display: flex;
+  flex-grow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtersPageColumnRightSideBlocksButtons {
+  display: flex;
+  flex-grow: row;
+}
+
+.filtersPageTheBestTours {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filtersPageTheBestToursItem {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 25%;
+  margin: 2%;
+  justify-content: space-around;
+}
+
+.filtersPageTheBestToursItem h5 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.filtersPageTheBestToursItem p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.filtersPageTheBestToursItem img {
+  width: 100%;
+}
+
+.filtersPageTheBestToursItem input {
+  align-self: center;
+}
+
+.filtersPageWantToRest {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  background-color: lightblue;
+  margin-top: 2%;
+
+}
+
+.filtersPageForm {
+  margin-left: 12%;
+  margin-bottom: -1%;
+  margin-top: 2%;
+  font-size: 14px;
+  text-align: left;
+  line-height: 0.1;
+  color: white;
+}
+
+.rubric2 {
+   position: relative;
+   overflow: hidden;
+   font-size: 14px;
+   font-weight: normal;
+   text-align: center;
+   margin-top: 2em;
+   margin-left: -52%;
+   color: white;
+ }
+.rubric2  > span {
+   display: inline-block;
+   margin: 0 .4em;
+   padding-bottom: 0;
+   color: white;
+   line-height: 0.1;
+ }
+.rubric2  > span:before,
+.rubric2  > span:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   border-top: 1px solid white;
+
+ }
+.rubric2  > span:before {
+   margin-left: -102%;
+ }
+.rubric2  > span:after {
+   margin-left: 2%;
+ }
